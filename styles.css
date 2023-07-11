@@ -2,6 +2,12 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
 .header-main{
     /* width: 100%; */
     /* height: 400px; */
@@ -29,11 +35,12 @@
  }  
  .btn-primary{
     border-radius: 5px;
-    background: chocolate;
+    background-color: chocolate;
     border: 0px;
     color: white;
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 300;
+    padding: 10px 25px;
    
  }       
 .featured-msg{
@@ -49,20 +56,34 @@
 .feature-text{
     text-align: center;
 }
-.btn-sign{
-    border-radius: 3px;
-    background: chocolate;
-    border: 5px;
-    color: white;
-    font-size: 12px;
-    font-weight: 100;
-}
+
 .hot-deal-sale{
     background-color: rgba(229, 84, 115, 0.05);
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 30px;
+}
+.deal-text{
+    align-items: center;
+    text-align: center;
+}
+.deal-title{
+    font-size: 36px;
+}
+.deal-description{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn-signup{
+    border-radius: 5px;
+    background-color: chocolate;
+    border: 0px;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 10px 25px;
 }
 .insta-msg{
     margin-top: 30px;
@@ -77,6 +98,6 @@
    display: flex;
    justify-content: center;
    gap: 20px;
-   margin-top: 5px;
+   margin-top: 10px;
    
 }
