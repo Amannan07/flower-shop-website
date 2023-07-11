@@ -8,6 +8,11 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
+    <style>
+        label{
+            display: block;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -43,6 +48,28 @@
                 
             </div>
         </div>
+        <!-- order section start here -->
+        <div class="order-section">
+            <h3>Place order here</h3>
+         
+        <fieldset>
+                <legend>Pick one or more flower</legend>
+                <label for="rose">
+                    <input type="checkbox" style="margin-right: 3px;" name="" id="flower">Rose
+                </label>
+                <label for="bely">
+                    <input type="checkbox" style="margin-right: 3px;" name="" id="flower">Bely
+                </label>
+                <label for="rojonigandha">
+                    <input type="checkbox" style="margin-right: 3px;" name="flower" id="flower">Rojonigandha
+                </label>
+                
+            </fieldset>
+            <input class="btn-reset" type="reset">   
+            
+        </div>
+
+
         <div class="section-hotdeal">
             <div class="deal-container">
                 <div class="hot-deal-sale">
@@ -72,6 +99,7 @@
        <div class="image"><img src="./Assets/Rectangle 6.png" alt=""></div>
       
     </div>
+    <!-- main bottom start here -->
     <div class="bottom-container">
         <div class="bottom-info">
             <h3 class="latest-deal">Get The Latest Deals</h3>
@@ -80,21 +108,15 @@
             <label for="email">Your email:</label>
             <input class="mail-input" id="email" type="text" placeholder="Your email here">
             <button class="btn-submit">Subscribe</button>
-            
         </form>
         </div>
-        
-        
-        
     </div>
     
-
-
     </main>
     <footer>
         <div class="footer-section">
             <div class="shop">
-                <h2>Flower<span class="flow-shop">Shop</span></h2>
+                <h2> <span class="flowr-shop">Flower</span>Shop</h2>
                 <p class="footer-description">It is a long established fact that a reader will be distracted<br/> by the readable content of a page when looking at its layout.</p>
                 &copy All Rights Reserved 2023.
             </div>
