@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header-main{
+    /* width: 100%; */
+    /* height: 400px; */
+    background-color: rgba(229, 84, 115, 0.10);
+    /* margin: auto; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.flower-main{
+    width: 400px;
+    padding-right: 50px;
+    
+}
+.welcome-msg{
+    font-size: 28px;
+    padding-left: 50px;
+    
+    
+}
+ .welcome-text{
+    font-size: 28px;
+    margin-bottom: 10px;
+ }  
+ .btn-primary{
+    border-radius: 5px;
+    background: chocolate;
+    border: 0px;
+    color: white;
+    font-size: 22px;
+    font-weight: 300;
+   
+ }       
+.featured-msg{
+    /* width: 100%; */
+    margin-top: 20px;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.feature-title{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.feature-text{
+    text-align: center;
+}
+.btn-sign{
+    border-radius: 3px;
+    background: chocolate;
+    border: 5px;
+    color: white;
+    font-size: 12px;
+    font-weight: 100;
+}
+.hot-deal-sale{
+    background-color: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.insta-msg{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.insta{
+    font-size: 22px;
+    font-weight: bold;
+}
+.pics-container{
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   margin-top: 5px;
+   
+}
